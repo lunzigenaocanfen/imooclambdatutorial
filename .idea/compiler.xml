@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="imooclambda-lesson1" />
         <module name="imooclambda-lesson2" />
+        <module name="imooclambda-lesson3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="immoclambdademo1" target="1.8" />
-      <module name="imooclambda-lesson1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
