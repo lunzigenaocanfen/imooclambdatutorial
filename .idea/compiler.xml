@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="imooclambda-lesson1" />
-        <module name="imooclambdalesson2" />
+        <module name="imooclambda-lesson2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="immoclambdademo1" target="1.8" />
+      <module name="imooclambda-lesson1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
