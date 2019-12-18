@@ -2,10 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="imooclambda-lesson04" />
+        <module name="imooclambda-lesson04-project" />
         <module name="imooclambda-lesson1" />
         <module name="imooclambda-lesson2" />
         <module name="imooclambda-lesson3" />
@@ -14,5 +17,14 @@
     <bytecodeTargetLevel>
       <module name="immoclambdademo1" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="imooclambda-lesson04" options="-parameters" />
+      <module name="imooclambda-lesson04-project" options="-parameters" />
+      <module name="imooclambda-lesson1" options="-parameters" />
+      <module name="imooclambda-lesson2" options="-parameters" />
+      <module name="imooclambda-lesson3" options="-parameters" />
+    </option>
   </component>
 </project>
